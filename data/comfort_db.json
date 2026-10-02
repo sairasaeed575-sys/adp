@@ -1,0 +1,1227 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Victoria Vance",
+      "email": "admin@comfortgarments.com",
+      "phone": "+1 (555) 234-5678",
+      "role": "super_admin",
+      "createdAt": "2026-01-10T08:00:00.000Z",
+      "status": "active",
+      "addresses": [
+        {
+          "id": "addr_adm_1",
+          "fullName": "Victoria Vance",
+          "phone": "+1 (555) 234-5678",
+          "addressLine": "450 Fashion Avenue, Suite 1200",
+          "city": "New York",
+          "state": "NY",
+          "postalCode": "10018",
+          "country": "United States",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "usr_cust_01",
+      "name": "Saira Saeed",
+      "email": "sairasaeed575@gmail.com",
+      "phone": "+1 (555) 892-1244",
+      "role": "customer",
+      "createdAt": "2026-02-14T10:30:00.000Z",
+      "status": "active",
+      "addresses": [
+        {
+          "id": "addr_cust_1",
+          "fullName": "Saira Saeed",
+          "phone": "+1 (555) 892-1244",
+          "addressLine": "742 Rosewood Crescent",
+          "city": "Beverly Hills",
+          "state": "CA",
+          "postalCode": "90210",
+          "country": "United States",
+          "isDefault": true
+        }
+      ]
+    },
+    {
+      "id": "usr_cust_02",
+      "name": "Amira Khan",
+      "email": "amira.khan@example.com",
+      "phone": "+1 (555) 431-7788",
+      "role": "customer",
+      "createdAt": "2026-02-20T12:00:00.000Z",
+      "status": "active",
+      "addresses": [
+        {
+          "id": "addr_cust_2",
+          "fullName": "Amira Khan",
+          "phone": "+1 (555) 431-7788",
+          "addressLine": "128 Kensington Way",
+          "city": "London",
+          "state": "Greater London",
+          "postalCode": "SW7 2AZ",
+          "country": "United Kingdom",
+          "isDefault": true
+        }
+      ]
+    }
+  ],
+  "passwords": {
+    "usr_admin_01": {
+      "salt": "0f38a471e009176712ead3a82b22c314",
+      "hash": "683a6351e742ef28943a06e5e5c8871f39fa4963611553f23cba1586355c318a090560e6685de2a4cc03baf4f505684053845ebfe6ae75ed74af81f5b71aa9c1"
+    },
+    "usr_cust_01": {
+      "salt": "319c2b461bf0869181e774d8d5ada5a1",
+      "hash": "9b16c7b70055654775d1f4ec463e823b2e21f3b989978734bf26117c24e18f00677e4f180fc75a9cb5316e07df42176a2d9d956b0cb82840273579e73a121800"
+    },
+    "usr_cust_02": {
+      "salt": "319c2b461bf0869181e774d8d5ada5a1",
+      "hash": "9b16c7b70055654775d1f4ec463e823b2e21f3b989978734bf26117c24e18f00677e4f180fc75a9cb5316e07df42176a2d9d956b0cb82840273579e73a121800"
+    }
+  },
+  "products": [
+    {
+      "id": "prod_rose_lawn_01",
+      "name": "Rose Embroidered Lawn Suit",
+      "slug": "rose-embroidered-lawn-suit",
+      "sku": "COM-LNW-001",
+      "shortDescription": "Three-piece fine cotton lawn ensemble with handcrafted resham florals and pure organza dupatta.",
+      "description": "Imbued with botanical romance, the Rose Embroidered Lawn Suit represents the pinnacle of summer luxury. Cut from 80-count combed cotton lawn, the shirt features intricate tone-on-tone embroidery across the neckline and front panels. Paired with tailored cigarette trousers and an ethereal digital-printed silk-organza dupatta featuring scalloped border lace.",
+      "price": 185,
+      "salePrice": 155,
+      "discountPercentage": 16,
+      "categorySlug": "unstitched",
+      "categoryName": "Unstitched Luxury",
+      "subcategory": "3-Piece Lawn",
+      "collectionSlugs": [
+        "spring-summer",
+        "festive-elegance"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_rose_xs",
+          "sku": "COM-LNW-001-XS",
+          "size": "XS",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 12,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_rose_s",
+          "sku": "COM-LNW-001-S",
+          "size": "S",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 18,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_rose_m",
+          "sku": "COM-LNW-001-M",
+          "size": "M",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 24,
+          "reservedStock": 1
+        },
+        {
+          "id": "v_rose_l",
+          "sku": "COM-LNW-001-L",
+          "size": "L",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 15,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_rose_xl",
+          "sku": "COM-LNW-001-XL",
+          "size": "XL",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 6,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_rose_xxl",
+          "sku": "COM-LNW-001-XXL",
+          "size": "XXL",
+          "color": "Dusty Rose",
+          "colorHex": "#C98B99",
+          "price": 185,
+          "salePrice": 155,
+          "stock": 3,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "Fine Combed Lawn (80s Yarn)",
+        "material": "100% Breathable Cotton",
+        "fit": "Regular Tailored Silhouette",
+        "sleeve": "Full Length with Lace Cuffs",
+        "length": "Calf Length (44 inches)",
+        "neckline": "V-Neck with Embroidered Placket",
+        "occasion": "Festive Gatherings, Semi-Formal Brunches",
+        "care": "Dry clean recommended or gentle cold hand wash. Iron inside out.",
+        "origin": "Made in Pakistan",
+        "composition": "Shirt: 100% Cotton Lawn, Trouser: 100% Cotton, Dupatta: Silk Organza"
+      },
+      "isNewArrival": true,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "status": "active",
+      "tags": [
+        "lawn",
+        "embroidered",
+        "3-piece",
+        "summer",
+        "rose",
+        "luxury"
+      ],
+      "seoTitle": "Rose Embroidered 3-Piece Lawn Suit | COMFORT Ladies Garments",
+      "seoDescription": "Handcrafted luxury 3-piece lawn suit in dusty rose with pure organza dupatta. Elegant, breathable, and designed for celebration.",
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "totalSold": 42
+    },
+    {
+      "id": "prod_mauve_linen_02",
+      "name": "Mauve Linen Co-Ord Set",
+      "slug": "mauve-linen-co-ord-set",
+      "sku": "COM-CRD-002",
+      "shortDescription": "Tailored relaxed-cut tunic with pleated wide-leg trousers in organic pre-washed European linen.",
+      "description": "Understated luxury meets daytime serenity. Crafted from naturally thermo-regulating French flax linen, this two-piece co-ord set features a relaxed dropped-shoulder tunic with genuine mother-of-pearl buttons, coupled with high-waisted wide-leg trousers featuring a discreet elasticized back waistband.",
+      "price": 145,
+      "salePrice": 125,
+      "discountPercentage": 14,
+      "categorySlug": "casual-wear",
+      "categoryName": "Casual Wear",
+      "subcategory": "Co-Ord Sets",
+      "collectionSlugs": [
+        "minimalist-comfort",
+        "spring-summer"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_mauve_xs",
+          "sku": "COM-CRD-002-XS",
+          "size": "XS",
+          "color": "Mauve Whisper",
+          "colorHex": "#9C6877",
+          "price": 145,
+          "salePrice": 125,
+          "stock": 8,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_mauve_s",
+          "sku": "COM-CRD-002-S",
+          "size": "S",
+          "color": "Mauve Whisper",
+          "colorHex": "#9C6877",
+          "price": 145,
+          "salePrice": 125,
+          "stock": 14,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_mauve_m",
+          "sku": "COM-CRD-002-M",
+          "size": "M",
+          "color": "Mauve Whisper",
+          "colorHex": "#9C6877",
+          "price": 145,
+          "salePrice": 125,
+          "stock": 19,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_mauve_l",
+          "sku": "COM-CRD-002-L",
+          "size": "L",
+          "color": "Mauve Whisper",
+          "colorHex": "#9C6877",
+          "price": 145,
+          "salePrice": 125,
+          "stock": 10,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_mauve_xl",
+          "sku": "COM-CRD-002-XL",
+          "size": "XL",
+          "color": "Mauve Whisper",
+          "colorHex": "#9C6877",
+          "price": 145,
+          "salePrice": 125,
+          "stock": 5,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "100% Pre-Washed European Linen",
+        "material": "Organic Flax Fiber",
+        "fit": "Relaxed Tailored Drape",
+        "sleeve": "3/4 Length with Cuffed Hem",
+        "length": "Tunic: 32 inches, Trousers: 39 inches",
+        "neckline": "Mandarin Band Collar",
+        "occasion": "Everyday Chic, Travel, Casual Dinners",
+        "care": "Machine wash delicate cycle in cold water. Line dry in shade.",
+        "origin": "Ethically Crafted in Turkey",
+        "composition": "100% Certified Linen"
+      },
+      "isNewArrival": true,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "status": "active",
+      "tags": [
+        "linen",
+        "co-ord",
+        "mauve",
+        "casual",
+        "sustainable"
+      ],
+      "seoTitle": "Mauve Linen Co-Ord Set | COMFORT Ladies Garments",
+      "seoDescription": "Breathable European linen co-ord set in elegant mauve whisper. Relaxed silhouette and mother-of-pearl buttons for daily sophistication.",
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "totalSold": 38
+    },
+    {
+      "id": "prod_ivory_pearl_03",
+      "name": "Ivory Pearl Embellished Maxi Dress",
+      "slug": "ivory-pearl-embellished-dress",
+      "sku": "COM-EVN-003",
+      "shortDescription": "Floor-skimming raw silk blend gown with hand-sewn freshwater seed pearls and micro-zari detail.",
+      "description": "An architectural tribute to bridal elegance and gala celebrations. The Ivory Pearl Embellished Maxi features hundreds of meticulously hand-placed lustrous faux pearls along the bodice, framing an empire line that falls gracefully into a pleated double-chiffon skirt.",
+      "price": 260,
+      "salePrice": 220,
+      "discountPercentage": 15,
+      "categorySlug": "party-wear",
+      "categoryName": "Party & Evening",
+      "subcategory": "Evening Dresses",
+      "collectionSlugs": [
+        "festive-elegance"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_ivory_xs",
+          "sku": "COM-EVN-003-XS",
+          "size": "XS",
+          "color": "Ivory Pearl",
+          "colorHex": "#FBF9F4",
+          "price": 260,
+          "salePrice": 220,
+          "stock": 4,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_ivory_s",
+          "sku": "COM-EVN-003-S",
+          "size": "S",
+          "color": "Ivory Pearl",
+          "colorHex": "#FBF9F4",
+          "price": 260,
+          "salePrice": 220,
+          "stock": 9,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_ivory_m",
+          "sku": "COM-EVN-003-M",
+          "size": "M",
+          "color": "Ivory Pearl",
+          "colorHex": "#FBF9F4",
+          "price": 260,
+          "salePrice": 220,
+          "stock": 11,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_ivory_l",
+          "sku": "COM-EVN-003-L",
+          "size": "L",
+          "color": "Ivory Pearl",
+          "colorHex": "#FBF9F4",
+          "price": 260,
+          "salePrice": 220,
+          "stock": 7,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_ivory_xl",
+          "sku": "COM-EVN-003-XL",
+          "size": "XL",
+          "color": "Ivory Pearl",
+          "colorHex": "#FBF9F4",
+          "price": 260,
+          "salePrice": 220,
+          "stock": 2,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "Raw Silk Blend Bodice with Double Georgette Chiffon Skirt",
+        "material": "60% Raw Silk, 40% Viscose, Soft Modal Satin Lining",
+        "fit": "Empire Waist with Flared A-Line Sweep",
+        "sleeve": "Long Sheer Sleeves with Embellished Wrists",
+        "length": "Floor Length (58 inches)",
+        "neckline": "Modest Boat Neck with Pearl Edging",
+        "occasion": "Weddings, Formal Receptions, Black Tie Galas",
+        "care": "Strictly professional dry clean only.",
+        "origin": "Handcrafted in UAE",
+        "composition": "Shell: 60% Silk 40% Viscose, Lining: 100% Modal Satin"
+      },
+      "isNewArrival": false,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "status": "active",
+      "tags": [
+        "evening",
+        "pearl",
+        "ivory",
+        "gown",
+        "wedding",
+        "maxi"
+      ],
+      "seoTitle": "Ivory Pearl Embellished Maxi Dress | COMFORT Ladies Garments",
+      "seoDescription": "Graceful ivory maxi dress with hand-embellished pearl detailing. Flared silhouette for grand receptions and wedding guests.",
+      "createdAt": "2026-01-20T14:30:00.000Z",
+      "totalSold": 29
+    },
+    {
+      "id": "prod_black_abaya_04",
+      "name": "Classic Black Silk Abaya",
+      "slug": "classic-black-silk-abaya",
+      "sku": "COM-ABY-004",
+      "shortDescription": "Sumptuous Korean Nida silk front-open abaya with discreet metallic piping and matching chiffon hijab.",
+      "description": "The epitome of modest grace. Tailored from the finest grade jet-black Korean Nida silk, this abaya falls with unmatched fluidity and zero static cling. Finished with concealed magnetic front closures and subtle bronze metallic cord piping along the lapels.",
+      "price": 170,
+      "salePrice": 145,
+      "discountPercentage": 15,
+      "categorySlug": "modest-wear",
+      "categoryName": "Modest & Abayas",
+      "subcategory": "Classic Abayas",
+      "collectionSlugs": [
+        "minimalist-comfort"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_abaya_s",
+          "sku": "COM-ABY-004-52",
+          "size": "S",
+          "color": "Jet Black",
+          "colorHex": "#1F1E1E",
+          "price": 170,
+          "salePrice": 145,
+          "stock": 15,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_abaya_m",
+          "sku": "COM-ABY-004-54",
+          "size": "M",
+          "color": "Jet Black",
+          "colorHex": "#1F1E1E",
+          "price": 170,
+          "salePrice": 145,
+          "stock": 22,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_abaya_l",
+          "sku": "COM-ABY-004-56",
+          "size": "L",
+          "color": "Jet Black",
+          "colorHex": "#1F1E1E",
+          "price": 170,
+          "salePrice": 145,
+          "stock": 18,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_abaya_xl",
+          "sku": "COM-ABY-004-58",
+          "size": "XL",
+          "color": "Jet Black",
+          "colorHex": "#1F1E1E",
+          "price": 170,
+          "salePrice": 145,
+          "stock": 7,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "High-Density Korean Nida Fabric",
+        "material": "Premium Breathable Poly-Silk",
+        "fit": "Flowing Modest Cut",
+        "sleeve": "Flared Kimono Sleeves with Inner Snaps",
+        "length": "54 / 56 / 58 inches options",
+        "neckline": "High Overlap Collar",
+        "occasion": "Daily Modesty, Friday Prayers, Formal Evenings",
+        "care": "Gentle machine wash cold in laundry bag or hand wash. Low steam iron.",
+        "origin": "Made in Dubai",
+        "composition": "100% Korean Nida Poly-Silk"
+      },
+      "isNewArrival": false,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "status": "active",
+      "tags": [
+        "abaya",
+        "black",
+        "modest",
+        "hijab",
+        "nida",
+        "silk"
+      ],
+      "seoTitle": "Classic Black Silk Abaya | COMFORT Ladies Garments",
+      "seoDescription": "High-grade Korean Nida black abaya with matching hijab. Unmatched drape, opaque coverage, and understated elegance.",
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "totalSold": 56
+    },
+    {
+      "id": "prod_emerald_velvet_05",
+      "name": "Emerald Festive Velvet Ensemble",
+      "slug": "emerald-festive-velvet-ensemble",
+      "sku": "COM-FLV-005",
+      "shortDescription": "Deep emerald micro-velvet kurta adorned with authentic tilla and zardozi needlework.",
+      "description": "A regal winter and autumn celebration piece. Cut from plush 9000-grade micro-velvet in midnight emerald, accented with antique gold dabka and zari work across the collar, daaman, and cuffs. Accompanied by silk jamawar straight pants and a crushed gold organza stole.",
+      "price": 295,
+      "salePrice": 260,
+      "discountPercentage": 12,
+      "categorySlug": "formal-wear",
+      "categoryName": "Formal Wear",
+      "subcategory": "Suits",
+      "collectionSlugs": [
+        "festive-elegance"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_emerald_xs",
+          "sku": "COM-FLV-005-XS",
+          "size": "XS",
+          "color": "Royal Emerald",
+          "colorHex": "#1B4D3E",
+          "price": 295,
+          "salePrice": 260,
+          "stock": 5,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_emerald_s",
+          "sku": "COM-FLV-005-S",
+          "size": "S",
+          "color": "Royal Emerald",
+          "colorHex": "#1B4D3E",
+          "price": 295,
+          "salePrice": 260,
+          "stock": 8,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_emerald_m",
+          "sku": "COM-FLV-005-M",
+          "size": "M",
+          "color": "Royal Emerald",
+          "colorHex": "#1B4D3E",
+          "price": 295,
+          "salePrice": 260,
+          "stock": 12,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_emerald_l",
+          "sku": "COM-FLV-005-L",
+          "size": "L",
+          "color": "Royal Emerald",
+          "colorHex": "#1B4D3E",
+          "price": 295,
+          "salePrice": 260,
+          "stock": 6,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "Plush 9000 Micro Velvet",
+        "material": "Silk Velvet Blend with Zari Embellishment",
+        "fit": "Structured Straight Cut",
+        "sleeve": "Full Sleeves with Heavy Embroidered Cuffs",
+        "length": "Knee Length Kurta (40 inches)",
+        "neckline": "Royal Keyhole Mandarin Neck",
+        "occasion": "Winter Weddings, Sangeet, Eid Celebrations",
+        "care": "Dry clean only. Store in muslin cloth garment bag.",
+        "origin": "Hand-crafted in Lahore",
+        "composition": "Kurta: 80% Silk Velvet, 20% Rayon. Pants: Silk Jamawar"
+      },
+      "isNewArrival": true,
+      "isFeatured": true,
+      "isBestSeller": false,
+      "status": "active",
+      "tags": [
+        "velvet",
+        "emerald",
+        "festive",
+        "zari",
+        "winter",
+        "luxury"
+      ],
+      "seoTitle": "Emerald Festive Velvet Ensemble | COMFORT Ladies Garments",
+      "seoDescription": "Regal micro-velvet suit in royal emerald with traditional zardozi and antique tilla wire work.",
+      "createdAt": "2026-02-10T16:00:00.000Z",
+      "totalSold": 19
+    },
+    {
+      "id": "prod_champagne_tunic_06",
+      "name": "Champagne Jacquard Silk Tunic",
+      "slug": "champagne-jacquard-silk-tunic",
+      "sku": "COM-JKT-006",
+      "shortDescription": "Woven metallic jacquard tunic with pleated bell sleeves and pearl loop buttons.",
+      "description": "A sparkling yet serene daytime celebration top. Features delicate self-woven botanical jacquard motifs in muted champagne gold, lined with soft breathable cotton lawn.",
+      "price": 135,
+      "salePrice": 115,
+      "discountPercentage": 15,
+      "categorySlug": "casual-wear",
+      "categoryName": "Casual Wear",
+      "subcategory": "Kurtas",
+      "collectionSlugs": [
+        "spring-summer"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85",
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=85"
+      ],
+      "variants": [
+        {
+          "id": "v_champ_xs",
+          "sku": "COM-JKT-006-XS",
+          "size": "XS",
+          "color": "Champagne Gold",
+          "colorHex": "#E5D3B3",
+          "price": 135,
+          "salePrice": 115,
+          "stock": 7,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_champ_s",
+          "sku": "COM-JKT-006-S",
+          "size": "S",
+          "color": "Champagne Gold",
+          "colorHex": "#E5D3B3",
+          "price": 135,
+          "salePrice": 115,
+          "stock": 15,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_champ_m",
+          "sku": "COM-JKT-006-M",
+          "size": "M",
+          "color": "Champagne Gold",
+          "colorHex": "#E5D3B3",
+          "price": 135,
+          "salePrice": 115,
+          "stock": 20,
+          "reservedStock": 0
+        },
+        {
+          "id": "v_champ_l",
+          "sku": "COM-JKT-006-L",
+          "size": "L",
+          "color": "Champagne Gold",
+          "colorHex": "#E5D3B3",
+          "price": 135,
+          "salePrice": 115,
+          "stock": 8,
+          "reservedStock": 0
+        }
+      ],
+      "specifications": {
+        "fabric": "Art Silk Jacquard",
+        "material": "Fine Weave with Cotton Lining",
+        "fit": "Straight Comfort Fit",
+        "sleeve": "Flared Bell Sleeves",
+        "length": "Hip Length (34 inches)",
+        "neckline": "Round Neck with Teardrop Slit",
+        "occasion": "Festive Dinners, Eid Brunches",
+        "care": "Gentle dry clean or hand wash cold.",
+        "origin": "Made in India",
+        "composition": "70% Viscose Silk, 30% Metallic Yarns"
+      },
+      "isNewArrival": false,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "status": "active",
+      "tags": [
+        "jacquard",
+        "champagne",
+        "tunic",
+        "silk",
+        "festive"
+      ],
+      "seoTitle": "Champagne Jacquard Silk Tunic | COMFORT Ladies Garments",
+      "seoDescription": "Luminous champagne silk jacquard tunic with delicate woven motifs and comfortable cotton lining.",
+      "createdAt": "2026-01-25T11:20:00.000Z",
+      "totalSold": 31
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_formal",
+      "name": "Formal Wear",
+      "slug": "formal-wear",
+      "description": "Sophisticated silhouettes, hand-finished borders, and statement formal wear crafted for grand celebrations.",
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 1,
+      "isActive": true,
+      "subcategories": [
+        "Suits",
+        "Maxis",
+        "Drapes",
+        "Gowns"
+      ]
+    },
+    {
+      "id": "cat_casual",
+      "name": "Casual Wear",
+      "slug": "casual-wear",
+      "description": "Effortless co-ords, breathable linens, and daily kurtas designed for comfort without compromising grace.",
+      "image": "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 2,
+      "isActive": true,
+      "subcategories": [
+        "Kurtas",
+        "Co-Ord Sets",
+        "Palazzo Sets",
+        "Tunics"
+      ]
+    },
+    {
+      "id": "cat_unstitched",
+      "name": "Unstitched Luxury",
+      "slug": "unstitched",
+      "description": "Pure lawn and raw silk unstitched ensembles with embroidered motifs, schiffli borders, and pure organza dupattas.",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 3,
+      "isActive": true,
+      "subcategories": [
+        "3-Piece Lawn",
+        "Embroidered Silk",
+        "Festive Chiffon"
+      ]
+    },
+    {
+      "id": "cat_party",
+      "name": "Party & Evening",
+      "slug": "party-wear",
+      "description": "Glistening beadwork, delicate pearl embellishments, and dramatic evening couture.",
+      "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 4,
+      "isActive": true,
+      "subcategories": [
+        "Evening Dresses",
+        "Festive Gowns",
+        "Silk Suits"
+      ]
+    },
+    {
+      "id": "cat_western",
+      "name": "Western Wear",
+      "slug": "western-wear",
+      "description": "Modern structured trench-style co-ords, tailored linen pantsuits, and contemporary silk shirts.",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 5,
+      "isActive": true,
+      "subcategories": [
+        "Shirts",
+        "Trousers",
+        "Jackets",
+        "Midi Dresses"
+      ]
+    },
+    {
+      "id": "cat_modest",
+      "name": "Modest & Abayas",
+      "slug": "modest-wear",
+      "description": "Sumptuous Korean Nida and mulberry silk abayas with discreet pearl detailing and generous silhouettes.",
+      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 6,
+      "isActive": true,
+      "subcategories": [
+        "Classic Abayas",
+        "Kimono Capes",
+        "Hijab Scarves"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_spring_summer",
+      "name": "Spring / Summer 2026",
+      "slug": "spring-summer",
+      "description": "Lightweight mulmul, breezy georgettes, and pastel florals designed for sunlit afternoons.",
+      "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "col_festive",
+      "name": "Festive Elegance",
+      "slug": "festive-elegance",
+      "description": "Zardozi wire-work, hand-embroidered resham, and gold thread tapestries for life’s grandest celebrations.",
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "col_minimalist",
+      "name": "Minimalist Comfort",
+      "slug": "minimalist-comfort",
+      "description": "Clean tailoring, neutral palettes, and pure natural fibers with timeless longevity.",
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80",
+      "displayOrder": 3,
+      "isActive": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_001",
+      "orderNumber": "COM-2026-000101",
+      "customerId": "usr_cust_01",
+      "customerName": "Saira Saeed",
+      "customerEmail": "sairasaeed575@gmail.com",
+      "customerPhone": "+1 (555) 892-1244",
+      "shippingAddress": {
+        "id": "addr_order_1",
+        "fullName": "Saira Saeed",
+        "phone": "+1 (555) 892-1244",
+        "addressLine": "742 Rosewood Crescent",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "postalCode": "90210",
+        "country": "United States"
+      },
+      "deliveryMethod": "Express Delivery (2-3 Business Days)",
+      "shippingFee": 0,
+      "paymentMethod": "Online Payment",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "items": [
+        {
+          "productId": "prod_rose_lawn_01",
+          "productName": "Rose Embroidered Lawn Suit",
+          "productSlug": "rose-embroidered-lawn-suit",
+          "productImage": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=400&q=80",
+          "variantId": "v_rose_m",
+          "sku": "COM-LNW-001-M",
+          "size": "M",
+          "color": "Dusty Rose",
+          "price": 155,
+          "quantity": 1,
+          "total": 155
+        },
+        {
+          "productId": "prod_mauve_linen_02",
+          "productName": "Mauve Linen Co-Ord Set",
+          "productSlug": "mauve-linen-co-ord-set",
+          "productImage": "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?auto=format&fit=crop&w=400&q=80",
+          "variantId": "v_mauve_m",
+          "sku": "COM-CRD-002-M",
+          "size": "M",
+          "color": "Mauve Whisper",
+          "price": 125,
+          "quantity": 1,
+          "total": 125
+        }
+      ],
+      "subtotal": 280,
+      "discountAmount": 28,
+      "couponCode": "WELCOME10",
+      "taxAmount": 12.6,
+      "grandTotal": 264.6,
+      "carrier": "DHL Express",
+      "trackingNumber": "TRK-983411",
+      "notes": "Customer requested signature on delivery.",
+      "statusHistory": [
+        {
+          "timestamp": "2026-02-14T11:00:00.000Z",
+          "status": "Pending",
+          "note": "Order placed by customer via credit card."
+        },
+        {
+          "timestamp": "2026-02-14T11:02:00.000Z",
+          "status": "Confirmed",
+          "note": "Payment verified and inventory allocated."
+        },
+        {
+          "timestamp": "2026-02-14T15:30:00.000Z",
+          "status": "Processing",
+          "note": "Passed to warehouse packaging team."
+        },
+        {
+          "timestamp": "2026-02-15T09:00:00.000Z",
+          "status": "Packed",
+          "note": "Custom garment box & silk ribbon wrapped."
+        },
+        {
+          "timestamp": "2026-02-15T14:00:00.000Z",
+          "status": "Shipped",
+          "note": "Picked up by DHL Express. Tracking # TRK-983411"
+        },
+        {
+          "timestamp": "2026-02-17T08:30:00.000Z",
+          "status": "Out for Delivery",
+          "note": "On courier van for destination address."
+        },
+        {
+          "timestamp": "2026-02-17T13:45:00.000Z",
+          "status": "Delivered",
+          "note": "Signed for by Saira Saeed."
+        }
+      ],
+      "createdAt": "2026-02-14T11:00:00.000Z",
+      "updatedAt": "2026-02-17T13:45:00.000Z",
+      "isReturnEligible": true
+    },
+    {
+      "id": "ord_002",
+      "orderNumber": "COM-2026-000102",
+      "customerId": "usr_cust_02",
+      "customerName": "Amira Khan",
+      "customerEmail": "amira.khan@example.com",
+      "customerPhone": "+1 (555) 431-7788",
+      "shippingAddress": {
+        "id": "addr_order_2",
+        "fullName": "Amira Khan",
+        "phone": "+1 (555) 431-7788",
+        "addressLine": "128 Kensington Way",
+        "city": "London",
+        "state": "Greater London",
+        "postalCode": "SW7 2AZ",
+        "country": "United Kingdom"
+      },
+      "deliveryMethod": "Express Delivery (2-3 Business Days)",
+      "shippingFee": 0,
+      "paymentMethod": "Online Payment",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "items": [
+        {
+          "productId": "prod_ivory_pearl_03",
+          "productName": "Ivory Pearl Embellished Maxi Dress",
+          "productSlug": "ivory-pearl-embellished-dress",
+          "productImage": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=400&q=80",
+          "variantId": "v_ivory_s",
+          "sku": "COM-EVN-003-S",
+          "size": "S",
+          "color": "Ivory Pearl",
+          "price": 220,
+          "quantity": 1,
+          "total": 220
+        }
+      ],
+      "subtotal": 220,
+      "discountAmount": 44,
+      "couponCode": "ELEGANCE20",
+      "taxAmount": 8.8,
+      "grandTotal": 184.8,
+      "carrier": "FedEx International",
+      "trackingNumber": "TRK-983422",
+      "statusHistory": [
+        {
+          "timestamp": "2026-02-20T14:00:00.000Z",
+          "status": "Pending",
+          "note": "Order placed by customer."
+        },
+        {
+          "timestamp": "2026-02-20T14:05:00.000Z",
+          "status": "Confirmed",
+          "note": "Payment captured."
+        },
+        {
+          "timestamp": "2026-02-21T10:00:00.000Z",
+          "status": "Processing",
+          "note": "Quality check and steaming."
+        },
+        {
+          "timestamp": "2026-02-21T16:00:00.000Z",
+          "status": "Shipped",
+          "note": "Dispatched via FedEx International. Tracking: TRK-983422"
+        }
+      ],
+      "createdAt": "2026-02-20T14:00:00.000Z",
+      "updatedAt": "2026-02-21T16:00:00.000Z",
+      "isReturnEligible": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cpn_welcome10",
+      "code": "WELCOME10",
+      "description": "10% discount on your first order over $40",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minimumOrder": 40,
+      "maxDiscount": 50,
+      "startDate": "2026-01-01T00:00:00.000Z",
+      "endDate": "2026-12-31T23:59:59.000Z",
+      "usageLimit": 500,
+      "usageCount": 42,
+      "isActive": true
+    },
+    {
+      "id": "cpn_elegance20",
+      "code": "ELEGANCE20",
+      "description": "20% off for orders over $100",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minimumOrder": 100,
+      "maxDiscount": 80,
+      "startDate": "2026-02-01T00:00:00.000Z",
+      "endDate": "2026-12-31T23:59:59.000Z",
+      "usageLimit": 200,
+      "usageCount": 18,
+      "isActive": true
+    },
+    {
+      "id": "cpn_freeship",
+      "code": "FREESHIP",
+      "description": "$15 off (complimentary express shipping credit) for orders over $50",
+      "discountType": "fixed",
+      "discountValue": 15,
+      "minimumOrder": 50,
+      "startDate": "2026-01-01T00:00:00.000Z",
+      "endDate": "2026-12-31T23:59:59.000Z",
+      "usageCount": 35,
+      "isActive": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_01",
+      "productId": "prod_rose_lawn_01",
+      "productName": "Rose Embroidered Lawn Suit",
+      "productSlug": "rose-embroidered-lawn-suit",
+      "customerId": "usr_cust_01",
+      "customerName": "Saira Saeed",
+      "customerEmail": "sairasaeed575@gmail.com",
+      "orderNumber": "COM-2026-000101",
+      "rating": 5,
+      "title": "Exquisite embroidery & supreme comfort",
+      "comment": "The craftsmanship on this suit is breathtaking! The lawn fabric is so soft and featherlight in warm weather, and the organza dupatta with scalloped borders is truly royal. Delivered promptly in premium packaging.",
+      "isVerifiedPurchase": true,
+      "status": "approved",
+      "adminReply": "Thank you so much Saira! We are delighted that the fabric and hand-finished scallops brought you joy.",
+      "createdAt": "2026-02-18T14:22:00.000Z"
+    },
+    {
+      "id": "rev_02",
+      "productId": "prod_rose_lawn_01",
+      "productName": "Rose Embroidered Lawn Suit",
+      "productSlug": "rose-embroidered-lawn-suit",
+      "customerId": "usr_cust_02",
+      "customerName": "Amira Khan",
+      "customerEmail": "amira.khan@example.com",
+      "orderNumber": "COM-2026-000102",
+      "rating": 5,
+      "title": "Fits true to size with magnificent drape",
+      "comment": "I ordered size Medium based on the size guide and it fit like a dream. The resham embroidery does not scratch at all. Will definitely be ordering from COMFORT again.",
+      "isVerifiedPurchase": true,
+      "status": "approved",
+      "createdAt": "2026-02-22T09:15:00.000Z"
+    },
+    {
+      "id": "rev_03",
+      "productId": "prod_mauve_linen_02",
+      "productName": "Mauve Linen Co-Ord Set",
+      "productSlug": "mauve-linen-co-ord-set",
+      "customerId": "usr_cust_01",
+      "customerName": "Saira Saeed",
+      "customerEmail": "sairasaeed575@gmail.com",
+      "orderNumber": "COM-2026-000101",
+      "rating": 5,
+      "title": "The ultimate airport & brunch set",
+      "comment": "Pure linen that doesn’t feel stiff! The mauve color is even more sophisticated in person. I wore this to a weekend brunch and received numerous compliments.",
+      "isVerifiedPurchase": true,
+      "status": "approved",
+      "createdAt": "2026-02-24T18:40:00.000Z"
+    },
+    {
+      "id": "rev_04",
+      "productId": "prod_ivory_pearl_03",
+      "productName": "Ivory Pearl Embellished Maxi Dress",
+      "productSlug": "ivory-pearl-embellished-dress",
+      "customerId": "usr_cust_02",
+      "customerName": "Amira Khan",
+      "customerEmail": "amira.khan@example.com",
+      "orderNumber": "COM-2026-000102",
+      "rating": 5,
+      "title": "Felt like royalty at my sister’s engagement",
+      "comment": "The pearls are securely attached by hand and catch the evening light delicately. Very flattering cut around the waist.",
+      "isVerifiedPurchase": true,
+      "status": "approved",
+      "createdAt": "2026-02-28T16:10:00.000Z"
+    }
+  ],
+  "returns": [],
+  "inventoryMovements": [
+    {
+      "id": "mov_01",
+      "variantId": "v_rose_m",
+      "sku": "COM-LNW-001-M",
+      "productName": "Rose Embroidered Lawn Suit",
+      "changeType": "stock_in",
+      "quantityChange": 25,
+      "previousQuantity": 0,
+      "newQuantity": 25,
+      "reason": "Spring Batch Initial Inward",
+      "reference": "PO-2026-001",
+      "user": "Victoria Vance",
+      "timestamp": "2026-02-01T09:00:00.000Z"
+    },
+    {
+      "id": "mov_02",
+      "variantId": "v_rose_m",
+      "sku": "COM-LNW-001-M",
+      "productName": "Rose Embroidered Lawn Suit",
+      "changeType": "sold",
+      "quantityChange": -1,
+      "previousQuantity": 25,
+      "newQuantity": 24,
+      "reason": "Order fulfilled",
+      "reference": "COM-2026-000101",
+      "user": "System Checkout",
+      "timestamp": "2026-02-14T11:00:00.000Z"
+    }
+  ],
+  "storeSettings": {
+    "storeName": "COMFORT",
+    "tagline": "Ladies Garments",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "taxRatePercent": 5,
+    "isTaxInclusive": false,
+    "freeShippingThreshold": 50,
+    "standardShippingFee": 10,
+    "expressShippingFee": 20,
+    "supportEmail": "care@comfortgarments.com",
+    "supportPhone": "+1 (800) 450-COZY",
+    "announcementBarText": "Complimentary Express Delivery on Orders Over $50  •  Hassle-Free 14-Day Returns  •  100% Certified Fabrics",
+    "announcementBarEnabled": true
+  },
+  "cms": {
+    "announcementBar": {
+      "enabled": true,
+      "text": "Complimentary Express Delivery on Orders Over $50  •  Hassle-Free 14-Day Returns  •  100% Certified Fabrics",
+      "link": "/shop"
+    },
+    "hero": {
+      "badge": "SPRING / SUMMER 2026",
+      "title": "Elegance in Every Stitch",
+      "description": "Discover timeless women’s wear crafted from pure botanical lawn, European flax linen, and handcrafted zardozi silks. Designed for comfort, confidence, and every radiant moment.",
+      "primaryCtaText": "Shop New Arrivals",
+      "primaryCtaLink": "/shop/new-arrivals",
+      "secondaryCtaText": "Explore Collection",
+      "secondaryCtaLink": "/shop",
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1400&q=85",
+      "secondaryBannerImage": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=85",
+      "secondaryBadge": "NEW COLLECTION",
+      "secondaryTitle": "Fresh Styles • Soft Fabrics",
+      "secondarySubtitle": "Everyday Elegance Tailored For You"
+    },
+    "trustBar": [
+      {
+        "title": "Fast & Free Shipping",
+        "subtitle": "On all orders above $50",
+        "icon": "Truck"
+      },
+      {
+        "title": "Easy 14-Day Returns",
+        "subtitle": "Complimentary return pickups",
+        "icon": "RotateCcw"
+      },
+      {
+        "title": "100% Secure Checkout",
+        "subtitle": "Encrypted multi-currency payments",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Bespoke Customer Care",
+        "subtitle": "Personal styling & concierge",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "auditLogs": [
+    {
+      "id": "aud_01",
+      "user": "Victoria Vance",
+      "action": "Initial System Boot",
+      "entity": "StoreSettings",
+      "entityId": "settings",
+      "details": "Bootstrapped COMFORT store catalog and inventory tables.",
+      "timestamp": "2026-02-01T08:00:00.000Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg_01",
+      "name": "Fatima Zahra",
+      "email": "fatima@example.com",
+      "phone": "+1 (555) 777-8899",
+      "subject": "Custom Sizing Question for Rose Lawn Suit",
+      "message": "Hello, could you let me know if custom alterations on sleeve length are available for bridal orders?",
+      "status": "new",
+      "createdAt": "2026-02-26T10:15:00.000Z"
+    }
+  ],
+  "newsletterSubscribers": [
+    {
+      "id": "sub_01",
+      "email": "sairasaeed575@gmail.com",
+      "subscribedAt": "2026-02-14T10:35:00.000Z"
+    }
+  ]
+}

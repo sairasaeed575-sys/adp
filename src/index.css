@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-comfort-primary: #A65C70;
+  --color-comfort-deep: #7D4052;
+  --color-comfort-accent: #C7A26A;
+  --color-comfort-soft: #E9C8CC;
+  --color-comfort-mauve: #9C6877;
+  --color-comfort-dark: #272326;
+  --color-comfort-muted: #6F6769;
+  --color-comfort-border: #E8DDDA;
+  --color-comfort-bg: #FFFDFC;
+  --color-comfort-cream: #FAF5F1;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-comfort-bg);
+  color: var(--color-comfort-dark);
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar for boutique polish */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C3C7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A65C70;
+}
+

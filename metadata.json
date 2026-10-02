@@ -1,0 +1,6 @@
+{
+  "name": "COMFORT — Ladies Garments",
+  "description": "Premium women's fashion ecommerce platform featuring elegant apparel, seamless shopping, order tracking, and comprehensive administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
